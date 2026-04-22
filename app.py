@@ -22,7 +22,7 @@ jwt_tokens = {}  # Store tokens by region
 def get_region_credentials(region):
     r = region.upper()
     if r == "IND":
-        return "uid=4418323728&password=BBBBBCBBC_D9SC1_BY_BREXX_GAMING_9CDOS"
+        return "uid=4418325662&password=BBBBBCBBC_NF32A_BY_BREXX_GAMING_VW37T"
     elif r == "BD":
         return "uid=4218400521&password=BY_XRSUPER-JZRQ3RURQ-XRRRR"
     elif r in {"BR", "US", "SAC", "NA"}:

@@ -26,7 +26,7 @@ def get_region_credentials(region):
     elif r == "BD":
         return "uid=4218400521&password=BY_XRSUPER-JZRQ3RURQ-XRRRR"
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid=4218400521&password=BY_XRSUPER-JZRQ3RURQ-XRRRR"
+        return "uid=4629820191&password=F88C6D8430955D64721664A8525A713FB0332E9E9BB49256BC08D602FC102A1C"
     else:
         return "uid=4218400521&password=BY_XRSUPER-JZRQ3RURQ-XRRRR"
 
@@ -218,13 +218,13 @@ def fetch_clan_info(clan_id, region, jwt_token=None):
             url = "https://client.ind.freefiremobile.com/GetClanInfoByClanID"
             host = "client.ind.freefiremobile.com"
         elif region_upper == "BD":
-            url = "https://clientbp.ggblueshark.com/GetClanInfoByClanID"
+            url = "https://clientbp.ggpolarbear.com/GetClanInfoByClanID"
             host = "clientbp.ggblueshark.com"
         elif region_upper in ["BR", "SAC"]:
-            url = "https://client.br.freefiremobile.com/GetClanInfoByClanID"
+            url = "https://client.us.freefiremobile.com/GetClanInfoByClanID"
             host = "client.br.freefiremobile.com"
         elif region_upper in ["US", "NA"]:
-            url = "https://client.na.freefiremobile.com/GetClanInfoByClanID"
+            url = "https://client.us.freefiremobile.com/GetClanInfoByClanID"
             host = "client.na.freefiremobile.com"
         else:
             url = "https://client.ind.freefiremobile.com/GetClanInfoByClanID"
